@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-image: url("maths_images.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-color: black !important;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(140, 190, 39, 0.671);
+    border-radius: 25px;
+    border: 3px solid white;
+    height: 80vh;
+    width: 70vw;
+    margin-top: 60px;
+    position: relative;
+}
+
+.timingsection {
+    text-align: center;
+
+
+}
+
+#first {
+    text-align: center;
+    display: none;
+  
+
+}
+
+#timesection {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    right: 60px;
+    top: -40px;
+    border: 3px solid white;
+    background-color: rgb(253, 255, 136);
+    display: none;
+    padding: 25px 0px 0px 10px;
+}
+
+#second {
+    position: absolute;
+    text-align: center;
+    display: none;
+    height: 70%; 
+    width: 70%; 
+    border-radius: 15px;
+     padding: 10px !important;
+
+}
+
+
+.time {
+    display: none;
+}
+
+#resultbtn {
+    display: none;
+    position: relative;
+    left: 75px;
+
+}
+
+.dropdown {
+    position: relative;
+    top: -140px;
+}
+
+.dropdown-menu li:hover {
+    background-color: rgb(0, 81, 255);
+    color: wheat;
+    text-align: center;
+}
+
+.main_button{
+    color: black !important;
+     font-weight: bold !important;
+}
+
+.signbutton{
+    width: 80px !important;
+     font-size: 25px !important;
+      font-weight: bold !important;
+      text-align: center !important;
+}
+.inputquestion{
+    font-size: 20px !important;
+}
+
+.selector{
+    width: 184px !important; 
+}
+body input{
+    text-align: center;
+}
+
+h3{
+    color:white;
+    text-shadow: 0px 0px 10px red, 
+  0px 0px 20px red,
+ 0px 0px 40px red,
+ 0px 0px 80px red,
+ 0px 0px 100px red,
+ 0px 0px 120px red ;
+ text-align:center ; 
+ animation: animate 5s linear infinite ; 
+
+ 
+}
+.author{
+    margin: 15px 5px;
+}
+
+
+
+
+@keyframes animate{
+    
+    0%{
+        filter:hue-rotate(0deg);
+        
+
+    }
+    
+    
+    100%{
+        filter:hue-rotate(360deg);
+  }  
+}
