@@ -8,7 +8,7 @@ body {
     background-image: url("maths_images.jpg");
      background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden !important;
     background-color: black !important;
     
 
